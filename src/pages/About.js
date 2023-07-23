@@ -38,7 +38,10 @@ const About = () => {
               <p className="card-text align-self-center">
                 Escritorio: Rua Apolôlio Rodrigues, nº 1190 Uruguaiana RS
               </p>
-              <Link to="/contact" className="btn btn-primary">
+              <Link
+                to="https://fernandopdeandrade.github.io/portfolio-react/contact"
+                className="btn btn-primary"
+              >
                 Entrar em contato
               </Link>
             </div>

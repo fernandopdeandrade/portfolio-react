@@ -12,16 +12,13 @@ import SuccessMessage from "./pages/SuccessMessage";
 export default function Routes() {
   return (
     <Switch>
-      <Route exact path="/portfolio-react" component={Home} />
-      <Route path="/portfolio-react/about" component={About} />
-      <Route path="/portfolio-react/contact" render={() => <Contact />} />
-      <Route path="/portfolio-react/blog" component={Blog} />
-      <Route path="/portfolio-react/projects" component={Projects} />
-      <Route
-        path="/portfolio-react/success_message"
-        component={SuccessMessage}
-      />
-      <Route path="/portfolio-react/privacy_policy" component={PrivacyPolicy} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/contact" render={() => <Contact />} />
+      <Route exact path="/blog" component={Blog} />
+      <Route exact path="/projects" component={Projects} />
+      <Route exact path="/success_message" component={SuccessMessage} />
+      <Route exact path="/privacy_policy" component={PrivacyPolicy} />
       <Route component={NotFound} />
     </Switch>
   );
