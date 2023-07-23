@@ -59,7 +59,7 @@ const Header = () => {
       {alert && <AlertDismissible />}
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark ">
-          <Link rel="icon" to="/">
+          <Link rel="icon" to="/portfolio-react/">
             <img
               className="botao-menu-mobile"
               src={cropped_logoNando}
