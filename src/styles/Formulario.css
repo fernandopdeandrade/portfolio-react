@@ -1,0 +1,103 @@
+/* formulario */
+.formulario-contato {
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 20px 0;
+  height: 100vh;
+  margin-bottom: 150px;
+}
+
+.formulario-contato-form {
+  border-radius: 2px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 2%;
+  border: 1px solid gray;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.chamada-formulario-contato {
+  margin-top: 110px;
+  text-align: center;
+  color: gray;
+}
+
+.formulario-contato-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(153, 152, 152);
+  border-radius: 2px;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.formulario-contato-form label {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 2px;
+}
+
+.carinha-sorrindo {
+  height: 50px;
+  width: 50px;
+}
+
+.formulario-contato-form textarea {
+  outline: none;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+#estado {
+  width: 80px;
+  margin-left: 5px;
+}
+
+.estado {
+  margin-left: 10px;
+}
+
+#data {
+  width: 200px;
+  margin-left: 5px;
+}
+
+label.mensagem-text-area {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.botao-formulario-contato {
+  transition: 0.5s;
+  margin-top: 20px;
+  border: none;
+}
+
+.botao-formulario-contato:hover {
+  transition-timing-function: ease-in-out;
+  font-size: 16px;
+  background-color: #1cbd41;
+}
+
+.formulario-contato-form input[type="text"]:hover {
+  background-color: #f4eff4;
+}
+
+.formulario-contato-form input[type="email"]:hover {
+  background-color: #f4eff4;
+}
+
+.formulario-contato-form input[type="date"]:hover {
+  background-color: #f4eff4;
+}
+
+.formulario-contato-form textarea:hover {
+  background-color: #f4eff4;
+}

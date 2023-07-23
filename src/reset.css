@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* media screen */
+@media screen and (max-width: 768px) {
+  h5.card-title {
+    font-size: 25px !important;
+    width: 60%;
+  }
+
+  form.form-inline {
+    display: block;
+    width: 400px;
+  }
+
+  div.div-card-texto {
+    width: 400px;
+    font-size: 15px;
+  }
+
+  div.divisoria h1 {
+    font-size: 23px;
+  }
+
+  h1.widget-title {
+    font-size: 22px;
+  }
+
+  p.conect-mensagem {
+    font-size: 14px;
+  }
+
+  div.quadradinhos-imagem-texto {
+    width: 90%;
+    height: 100%;
+    margin: 20px auto;
+  }
+
+  #data {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .formulario-contato-form {
+    width: 92% !important;
+  }
+
+  div.modal {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  form.formulario-contato-form {
+    width: 70%;
+  }
+
+  form.form-inline {
+    display: block;
+    width: 400px;
+  }
+
+  div.modal {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  div.sobre-mim {
+    width: 92% !important;
+    font-size: 10px;
+  }
+
+  div.modal {
+    width: 80%;
+  }
+
+  form.form-inline {
+    display: block;
+    width: 300px;
+  }
+
+  .titulo-modelo-site {
+    font-size: 20px;
+  }
+
+  .divisoria h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-body {
+    width: 100%;
+  }
+
+  .card-body iframe {
+    margin-top: 20px !important;
+  }
+
+  .space-separator {
+    height: 60px !important;
+  }
+
+  .titulo-modelo-site {
+    font-size: 17px;
+  }
+
+  .formulario-contato {
+    width: 100%;
+    max-height: 550px !important;
+  }
+
+  h1.chamada-formulario-contato {
+    margin-top: 50px !important;
+    font-size: 25px;
+  }
+
+  div.div-card-texto {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  div.div-card-texto-sobre {
+    font-size: 15px;
+  }
+
+  h5.card-title em {
+    font-size: 25px;
+  }
+
+  small.small-developer {
+    font-size: 20px;
+  }
+
+  strong.strong-developer {
+    font-size: 20px;
+  }
+
+  img.botao-menu-mobile {
+    width: 100px;
+    height: 40px;
+  }
+
+  img.imagem-home-principal {
+    margin-top: 0 !important;
+    height: 300px;
+  }
+
+  b {
+    color: #66206f;
+  }
+
+  strong em {
+    font-size: 15px !important;
+  }
+
+  strong.um-pouco-sobre-mim {
+    color: #66206f;
+  }
+
+  button.botao-titulo-card {
+    font-size: 10px;
+  }
+
+  div.divisoria {
+    width: 90%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+  div.divisoria h1 {
+    font-size: 15px;
+  }
+
+  h1.widget-title {
+    font-size: 18px;
+  }
+
+  div.carousel-item {
+    margin-top: -50px;
+  }
+
+  p.conect-mensagem {
+    font-size: 12px;
+  }
+
+  form.formulario-contato-form label {
+    font-size: 12px;
+  }
+
+  form.formulario-contato-form input {
+    border-radius: 1px;
+    font-size: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(189, 187, 187);
+  }
+
+  form.formulario-contato-form input[type="date"] {
+    font-size: 15px;
+    display: block;
+  }
+
+  form.formulario-contato-form input[id="estado"] {
+    font-size: 15px;
+    display: block;
+  }
+
+  form.formulario-contato-form label.estado {
+    margin-left: 0;
+  }
+
+  input#btn {
+    font-size: 15px;
+    height: 40px;
+  }
+
+  textarea#mensagem {
+    border-radius: 1px;
+    font-size: 15px;
+    height: 100px;
+    border: 1px solid rgb(189, 187, 187);
+  }
+
+  a.a-icones {
+    font-size: 15px;
+  }
+
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  span.spanNandoDev {
+    font-size: 15px;
+  }
+
+  a.controles-troca-foto-carousel {
+    margin-top: 41%;
+    height: 30px;
+    width: 30px;
+  }
+
+  .modal {
+    display: block;
+    height: 60%;
+    width: 200px;
+  }
+
+  button.close {
+    display: block;
+    margin-top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+  }
+
+  button.close p a {
+    font-size: 30px;
+    left: -10px;
+    top: 0;
+  }
+
+  p.modal-text {
+    font-size: 20px;
+  }
+}

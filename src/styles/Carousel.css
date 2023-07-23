@@ -1,0 +1,86 @@
+/* alguns de nossos sites carousel slider */
+div.div-imagem-slide {
+  width: 100%;
+  height: 100%;
+  padding: 50px 18%;
+  background-color: black !important;
+}
+
+.imagem-slide {
+  max-width: 800px;
+  max-height: 800px;
+  padding: 50px 5.5%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.carousel {
+  padding: 20px 0px !important;
+  position: absolute !important;
+  top: 300px !important;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0 !important;
+}
+
+.carousel-control-prev {
+  background-color: rgb(102, 32, 111) !important;
+  height: 60px !important;
+  width: 60px !important;
+  margin-left: 3% !important;
+  border-radius: 50% !important;
+  transform: translateY(+400px);
+}
+
+.carousel-control-prev-icon {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.carousel-control-prev .visually-hidden {
+  color: rgba(102, 32, 111, 0) !important;
+  margin-left: -40px !important;
+}
+
+.carousel-control-next {
+  background-color: rgb(102, 32, 111) !important;
+  height: 60px !important;
+  width: 60px !important;
+  margin-right: 3% !important;
+  border-radius: 50% !important;
+  transform: translateY(+400px);
+}
+
+.carousel-control-next-icon {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.carousel-control-next .visually-hidden {
+  color: rgba(102, 32, 111, 0) !important;
+  margin-left: -40px !important;
+}
+
+.carousel-indicators {
+  display: flex !important;
+  justify-content: center !important;
+  height: 20px !important;
+}
+
+.carousel-indicators button {
+  background-color: rgb(255, 159, 0) !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin: 0px 5px !important;
+  border-radius: 50% !important;
+  border: none !important;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(255, 255, 255) !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin: 0px 5px !important;
+}
