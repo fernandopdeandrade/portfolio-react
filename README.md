@@ -1,5 +1,7 @@
 # Portfólio `Pessoal`!
-Portifólio desenvolvido usando as seguintes tecnologioas: 
+- Acessar o portfólio através desse link = https://fernandopdeandrade.github.io/portfolio-react/#/
+
+Foram usadas as seguintes tecnologioas: `css`, `html`, `javascript`, `reactjs`, `bootstrap`, `deploy`, `https://formsubmit.co`
 
 <details>
   <summary><strong>👨‍💻 Habilidades!</strong></summary>
