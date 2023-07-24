@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.077146b6.css",
-    "main.js": "/portfolio-react/static/js/main.c535d166.js",
+    "main.css": "/portfolio-react/static/css/main.4f81faa3.css",
+    "main.js": "/portfolio-react/static/js/main.5bdcb3d3.js",
     "static/media/site4.jpg": "/portfolio-react/static/media/site4.73e07f8b6b03dfecad70.jpg",
     "static/media/site3.jpg": "/portfolio-react/static/media/site3.cce9bf3e88a95c680337.jpg",
     "static/media/site2.jpg": "/portfolio-react/static/media/site2.a643f9a968fa11ce005e.jpg",
@@ -13,11 +13,11 @@
     "static/media/cropped-logoNando.png": "/portfolio-react/static/media/cropped-logoNando.c32781e4ec72df9c1d47.png",
     "static/media/rostinho-feliz.png": "/portfolio-react/static/media/rostinho-feliz.8da6198b9bb2165e1845.png",
     "index.html": "/portfolio-react/index.html",
-    "main.077146b6.css.map": "/portfolio-react/static/css/main.077146b6.css.map",
-    "main.c535d166.js.map": "/portfolio-react/static/js/main.c535d166.js.map"
+    "main.4f81faa3.css.map": "/portfolio-react/static/css/main.4f81faa3.css.map",
+    "main.5bdcb3d3.js.map": "/portfolio-react/static/js/main.5bdcb3d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.077146b6.css",
-    "static/js/main.c535d166.js"
+    "static/css/main.4f81faa3.css",
+    "static/js/main.5bdcb3d3.js"
   ]
 }
