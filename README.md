@@ -40,6 +40,6 @@ Agora abra seu navegador em = http://localhost:3000/#/
 
 </details>
 
-<strong>👨‍💻 Imagem do projeto rodando localmente!</strong>
+<strong>👨‍💻 Imagem do projeto rodando e já hospedado no github-pages!</strong>
 
 ![projeto-rodando](/public/portfolio.png)
