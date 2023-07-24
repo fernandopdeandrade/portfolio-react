@@ -28,7 +28,7 @@ Instale as dependências com o comando:
 npm install ou npm i
 ```
 
-Certifique-se de que tem o nodemon instalado na máquina, e rode esse comando para iniciar a aplicação:
+Agora use esse comando para iniciar a aplicação:
 
 ```bash
 npm start
