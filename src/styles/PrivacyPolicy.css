@@ -21,6 +21,12 @@
   text-justify: inter-word;
 }
 
+div.politica-privacidade div.privacidade-text h1 {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+  border-bottom: 1px solid black;
+  width: 400px;
+}
+
 .privacidade-text b {
   font-weight: bold;
   color: rgb(102, 32, 111);

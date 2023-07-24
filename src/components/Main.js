@@ -40,7 +40,7 @@ const Main = () => {
         <div className="clear"></div>
 
         <br />
-        <div className="divisoria">
+        <div className="divisoria-home">
           <div className="row">
             <div className="col-md-12">
               <div className="section-header">

@@ -12,10 +12,9 @@ function SpinnerLoading() {
           style={{
             position: "absolute",
             top: "40%",
-            left: "43%",
             zIndex: "999",
-            height: "200px",
-            width: "200px",
+            height: "120px",
+            width: "120px",
           }}
         ></Spinner>
         <span className="span-loading">Loading...</span>

@@ -48,7 +48,7 @@ const Blog = () => {
                   </div>
                 </article>
               </section>
-              <section>
+              <section className="section-texto">
                 <h3>O futuro da tecnologia</h3>
                 <p>
                   O futuro da inteligência artificial é um tópico que tem sido
@@ -87,7 +87,7 @@ const Blog = () => {
                   para prejudicá-la.
                 </p>
               </section>
-              <section>
+              <section className="section-texto">
                 <h3>Os riscos da tecnologia</h3>
                 <p>
                   A tecnologia é uma ferramenta poderosa que pode ser usada para
@@ -130,7 +130,7 @@ const Blog = () => {
                   estabelecendo limites para o nosso tempo de tela.
                 </p>
               </section>
-              <section>
+              <section className="section-texto">
                 <h3>Os benefícios da tecnologia</h3>
                 <p>
                   A tecnologia é uma ferramenta poderosa que tem o potencial de

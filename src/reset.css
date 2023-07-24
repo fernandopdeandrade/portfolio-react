@@ -50,6 +50,17 @@ img {
   display: none;
 }
 
+.divisoria-projects {
+  font-weight: 400;
+  text-align: center;
+  color: #212529;
+}
+
+.divisoria-projects h1 {
+  font-size: 2rem;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+}
+
 /* media screen */
 @media screen and (max-width: 1000px) {
   .formulario-contato-form {
@@ -139,9 +150,65 @@ img {
     margin-top: 250px !important;
     margin-left: 52px;
   }
+
+  .main-tecnologia {
+    width: 100%;
+    height: 100%;
+  }
+
+  .div-tecnologia {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+
+  .div-tecnologia .primary article .img-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .div-tecnologia .primary article .img-p p {
+    box-shadow: none;
+    border-right: 1px solid black;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .imagem-slide {
+    margin: 150px auto;
+    height: 400px;
+    max-width: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  div.politica-privacidade div.privacidade-text {
+    min-width: 340px;
+    font-size: 20px;
+  }
+
+  div.politica-privacidade div.privacidade-text h1 {
+    font-size: 25px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+    border-bottom: 1px solid black;
+    width: 250px;
+  }
+
+  .div-tecnologia section.primary {
+    width: 100%;
+    padding: none;
+  }
+
+  .div-tecnologia .primary article {
+    width: 100%;
+    padding: none;
+  }
+
   .card-title-sobre {
     font-size: 20px;
   }
@@ -166,9 +233,11 @@ img {
     margin: 10px auto;
   }
 
-  h5.card-title {
+  div.card-title {
     font-size: 25px !important;
-    width: 60%;
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 5%;
   }
 
   form.form-inline {
@@ -202,9 +271,66 @@ img {
   #data {
     width: 35%;
   }
+
+  img.imagem-home-principal {
+    margin-top: 0 !important;
+    height: 510px;
+  }
 }
 
 @media screen and (max-width: 575px) {
+  .imagem-slide {
+    margin: 200px auto;
+    height: 300px;
+    max-width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .main-tecnologia {
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-tecnologia .div-tecnologia {
+    width: 100%;
+  }
+
+  .div-tecnologia section .primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: none;
+  }
+
+  .div-tecnologia .primary article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .div-tecnologia .primary article p {
+    min-width: 300px;
+  }
+
+  .div-tecnologia .primary article div.img-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .div-tecnologia .primary article div.img-p img {
+    min-width: 300px;
+  }
+
   .sobre-mim {
     width: 92% !important;
     font-size: 10px;
@@ -248,6 +374,71 @@ img {
 }
 
 @media screen and (max-width: 500px) {
+  div.politica-privacidade div.privacidade-text {
+    min-width: 340px;
+    font-size: 14px;
+  }
+
+  div.politica-privacidade div.privacidade-text h1 {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+    border-bottom: 1px solid black;
+    width: 200px;
+  }
+
+  .main-tecnologia .div-tecnologia {
+    padding: 0;
+  }
+
+  .main-tecnologia .div-tecnologia h1 {
+    font-size: 25px;
+    margin-top: 1px;
+  }
+
+  .main-tecnologia .div-tecnologia .section-texto {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-tecnologia .div-tecnologia .section-texto h3 {
+    font-size: 25px;
+    min-width: 300px;
+  }
+
+  .main-tecnologia .div-tecnologia .section-texto p {
+    font-size: 18px;
+    min-width: 300px;
+  }
+
+  header {
+    height: 100px;
+    width: 100%;
+  }
+
+  .navbar a img {
+    width: 100px;
+    height: 80px;
+  }
+
+  div#conteudoNavbarSuportado {
+    background-color: rgb(102, 32, 111);
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    z-index: 9999;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  div.divisoria-home {
+    margin-top: -40px !important;
+    text-shadow: 3px 3px 3px black;
+    height: 40px;
+  }
+
   .card-body {
     width: 100%;
   }
@@ -307,7 +498,7 @@ img {
 
   img.imagem-home-principal {
     margin-top: 0 !important;
-    height: 300px;
+    height: 450px;
   }
 
   b {
@@ -340,8 +531,73 @@ img {
     font-size: 18px;
   }
 
-  div.carousel-item {
-    margin-top: -50px;
+  .div-fundo-carousel {
+    position: relative;
+    margin: 20px auto;
+    height: 700px;
+    width: 96%;
+  }
+
+  .div-fundo-carousel .img-fundo-carousel {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagem-slide {
+    margin: 0 auto;
+    height: 600px;
+    max-width: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .carousel {
+    position: absolute;
+    padding: 20px 0px !important;
+    position: absolute !important;
+    bottom: 10px !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .carousel-control-prev {
+    background-color: rgb(102, 32, 111) !important;
+    height: 50px !important;
+    width: 50px !important;
+    margin-left: 3% !important;
+    border-radius: 50% !important;
+    transform: translateY(+340px);
+  }
+
+  .carousel-control-prev-icon {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .carousel-control-prev .visually-hidden {
+    color: rgba(102, 32, 111, 0) !important;
+    margin-left: -40px !important;
+  }
+
+  .carousel-control-next {
+    background-color: rgb(102, 32, 111) !important;
+    height: 50px !important;
+    width: 50px !important;
+    margin-right: 3% !important;
+    border-radius: 50% !important;
+    transform: translateY(+340px);
+  }
+
+  .carousel-control-next-icon {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .carousel-control-next .visually-hidden {
+    color: rgba(102, 32, 111, 0) !important;
+    margin-left: -40px !important;
   }
 
   p.conect-mensagem {
@@ -427,5 +683,43 @@ img {
 
   p.modal-text {
     font-size: 20px;
+  }
+
+  .container .row .quadradinhos-imagem-texto {
+    width: 100%;
+  }
+
+  .divisoria-projects {
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #212529;
+    border: 1p solid gray;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  }
+
+  .divisoria-projects h1 {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  form.form-inline {
+    display: block;
+    width: 300px;
+  }
+
+  div.politica-privacidade div.privacidade-text {
+    min-width: 340px;
+    font-size: 14px;
+  }
+
+  div.politica-privacidade div.privacidade-text h1 {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+    border-bottom: 1px solid black;
+    width: 70%;
   }
 }

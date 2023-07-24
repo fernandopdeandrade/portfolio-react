@@ -32,7 +32,7 @@ const Projects = () => {
             style={{ height: "150px", width: "100%", marginBottom: "20px" }}
           ></div>
 
-          <div className=" divisoria">
+          <div className="divisoria-projects">
             <h1>Alguns modelos de sites replicados.</h1>
           </div>
 
@@ -147,7 +147,7 @@ const Projects = () => {
 
           <div className="divisoria">
             <h1>Alguns dos meus projetos</h1>
-            <b>Meu github</b>
+            <b>Meu github</b>{" "}
             <a
               href="https://github.com/fernandopdeandrade"
               target="_blank"
