@@ -36,27 +36,38 @@ const Projects = () => {
             <h1>Alguns modelos de sites replicados.</h1>
           </div>
 
-          <div style={{ margin: "20px auto", height: "100%", width: "80%" }}>
-            <img src={fundoSlide} alt="fundo slide" />
+          <div className="div-fundo-carousel">
+            <img
+              className="img-fundo-carousel"
+              src={fundoSlide}
+              alt="fundo slide"
+            />
+            <Carousel fade>
+              <Carousel.Item>
+                <img
+                  className="imagem-slide"
+                  src={site1}
+                  alt="Primeiro Slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="imagem-slide" src={site2} alt="Segundo Slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="imagem-slide"
+                  src={site3}
+                  alt="Terceiro Slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="imagem-slide" src={site4} alt="Quarto Slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="imagem-slide" src={site5} alt="Quinto Slide" />
+              </Carousel.Item>
+            </Carousel>
           </div>
-
-          <Carousel fade>
-            <Carousel.Item>
-              <img className="imagem-slide" src={site1} alt="Primeiro Slide" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="imagem-slide" src={site2} alt="Segundo Slide" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="imagem-slide" src={site3} alt="Terceiro Slide" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="imagem-slide" src={site4} alt="Quarto Slide" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="imagem-slide" src={site5} alt="Quinto Slide" />
-            </Carousel.Item>
-          </Carousel>
 
           <div className="clear"></div>
 

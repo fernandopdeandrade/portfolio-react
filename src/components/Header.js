@@ -10,6 +10,19 @@ import AlertDismissible from "./AlertDismissible";
 
 const Header = () => {
   const [alert, setAlert] = useState(false);
+  const [toggle, setToggle] = useState(false);
+
+  const toggleMenu = () => {
+    const menu = document.getElementById("conteudoNavbarSuportado");
+
+    if (toggle) {
+      menu.style.display = "none";
+      setToggle(false);
+    } else {
+      menu.style.display = "block";
+      setToggle(true);
+    }
+  };
 
   useEffect(() => {
     const botao_pesquisa = document.getElementById("pesquisa");
@@ -59,25 +72,16 @@ const Header = () => {
       {alert && <AlertDismissible />}
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark ">
-          <Link rel="icon" to="/portfolio-react/">
-            <img
-              className="botao-menu-mobile"
-              src={cropped_logoNando}
-              alt="logo"
-            />
+          <Link rel="icon" to="/">
+            <img src={cropped_logoNando} alt="logo" />
           </Link>
           <button
-            className="navbar-toggler"
+            className="botao-menu-mobile"
             type="button"
-            data-toggle="collapse"
-            data-target="#conteudoNavbarSuportado"
-            aria-controls="conteudoNavbarSuportado"
-            aria-expanded="false"
-            aria-label="Alterna navegação"
+            onClick={toggleMenu}
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="span-menu-mobile">Menu</span>
           </button>
-
           <div
             className="collapse navbar-collapse"
             id="conteudoNavbarSuportado"

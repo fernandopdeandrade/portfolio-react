@@ -22,11 +22,6 @@ header {
   z-index: 999;
 }
 
-.color-navbarDropdow {
-  background-color: #f2ecf2;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
-}
-
 .mais-opcoes-link {
   display: flex;
   flex-direction: column;
