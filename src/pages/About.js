@@ -40,7 +40,7 @@ function About() {
               referrerPolicy="no-referrer-when-downgrade"
             />
             <div className="d-flex flex-column">
-              <p className="card-text align-self-center">
+              <p className="card-text align-self-center border-botoom">
                 Escritorio: Rua Apolôlio Rodrigues, nº 1190 Uruguaiana RS
               </p>
               <Link
@@ -61,14 +61,14 @@ function About() {
                 </div>
                 <div className="col align-self-center">
                   <p>
-                    <strong className="um-pouco-sobre-mim">
-                      `Um pouco sobre mim`...
+                    <strong className="border-botoom">
+                      Um pouco sobre mim
                     </strong>
                     <br />
                     <em>
                       Olá, me chamo
                       {' '}
-                      <b>Fernando Pereira de Andrade.</b>
+                      <b className="border-botoom">Fernando Pereira de Andrade.</b>
                       <br />
                       Neste `Portfólio` venho compartilhar um pouco do meu
                       conhecimento em algumas tecnologias.
