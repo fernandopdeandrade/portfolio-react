@@ -90,7 +90,7 @@ function Contact() {
               <input
                 type="hidden"
                 name="_next"
-                value="http://localhost:3000/success_message"
+                value="https://fernandopdeandrade.github.io/portfolio-react/#/success_message"
               />
               <input
                 type="hidden"
