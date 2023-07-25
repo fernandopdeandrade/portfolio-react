@@ -44,7 +44,7 @@ function Projects() {
           />
 
           <div className="divisoria-projects">
-            <h1>Alguns modelos de sites replicados.</h1>
+            <h5 className="card-title-sobre">Alguns modelos de sites replicados.</h5>
           </div>
 
           <div className="div-fundo-carousel">

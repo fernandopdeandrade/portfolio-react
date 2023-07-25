@@ -46,7 +46,7 @@ function Main() {
 
         <br />
         <div className="divisoria-home">
-          <h1 className="widget-title">Algumas das minhas Skills.</h1>
+          <h5 className="card-title-sobre">Algumas das minhas Skills.</h5>
         </div>
 
         <div className="clear" />
