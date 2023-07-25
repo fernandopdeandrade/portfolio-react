@@ -1,23 +1,44 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.4f81faa3.css",
-    "main.js": "/portfolio-react/static/js/main.5bdcb3d3.js",
+    "main.css": "/portfolio-react/static/css/main.11dfcfe7.css",
+    "main.js": "/portfolio-react/static/js/main.469146ca.js",
     "static/media/site4.jpg": "/portfolio-react/static/media/site4.73e07f8b6b03dfecad70.jpg",
     "static/media/site3.jpg": "/portfolio-react/static/media/site3.cce9bf3e88a95c680337.jpg",
     "static/media/site2.jpg": "/portfolio-react/static/media/site2.a643f9a968fa11ce005e.jpg",
     "static/media/site1.jpg": "/portfolio-react/static/media/site1.87e0d99bb653b262a45a.jpg",
     "static/media/site5.jpg": "/portfolio-react/static/media/site5.91fa3e1a3387794def9f.jpg",
+    "static/media/site-vendas.jpg": "/portfolio-react/static/media/site-vendas.417efd0414a5f0052817.jpg",
+    "static/media/fernando.jpg": "/portfolio-react/static/media/fernando.d526eb83702def9f3e90.jpg",
+    "static/media/app-recipes.png": "/portfolio-react/static/media/app-recipes.75789c272c1fe0ab098b.png",
     "static/media/meta-verso.jpg": "/portfolio-react/static/media/meta-verso.517e5c9bf6cfa6463174.jpg",
+    "static/media/site-transporte.jpg": "/portfolio-react/static/media/site-transporte.48f7186f89c1a4e52479.jpg",
+    "static/media/sql.png": "/portfolio-react/static/media/sql.9214c767ff19e0851501.png",
+    "static/media/python.png": "/portfolio-react/static/media/python.03a90d462889b306f97f.png",
+    "static/media/windows.png": "/portfolio-react/static/media/windows.92ca4e7607ac7de3d384.png",
+    "static/media/html.png": "/portfolio-react/static/media/html.583669f541771c13b1d7.png",
     "static/media/fundo-colorido.png": "/portfolio-react/static/media/fundo-colorido.2ae45f7f9ffd280bb67d.png",
+    "static/media/bootstrap.png": "/portfolio-react/static/media/bootstrap.93a48a2aea4c21f13f03.png",
+    "static/media/css.png": "/portfolio-react/static/media/css.27ddd03987e9cf284c3d.png",
     "static/media/homeOffice.jpg": "/portfolio-react/static/media/homeOffice.640e58bd3997b4339723.jpg",
-    "static/media/cropped-logoNando.png": "/portfolio-react/static/media/cropped-logoNando.c32781e4ec72df9c1d47.png",
+    "static/media/site-mecanica.jpg": "/portfolio-react/static/media/site-mecanica.c591efcc1b2394895c19.jpg",
+    "static/media/javascript.png": "/portfolio-react/static/media/javascript.c0a026a34f9a942ccfc4.png",
+    "static/media/mysql2.png": "/portfolio-react/static/media/mysql2.892f746a120b70507aca.png",
+    "static/media/react.png": "/portfolio-react/static/media/react.997f7d962bc2655f046e.png",
+    "static/media/bash.png": "/portfolio-react/static/media/bash.a82bf9718435227169df.png",
+    "static/media/unix.png": "/portfolio-react/static/media/unix.5e6869dbe4ad494c9a12.png",
+    "static/media/nodejs.png": "/portfolio-react/static/media/nodejs.356bea43201ecc51a438.png",
+    "static/media/cropped-logo-nando.png": "/portfolio-react/static/media/cropped-logo-nando.c32781e4ec72df9c1d47.png",
+    "static/media/mongodb.png": "/portfolio-react/static/media/mongodb.87277f9346dd54a51d11.png",
+    "static/media/java.png": "/portfolio-react/static/media/java.3eff04b68c980c514959.png",
+    "static/media/typescript.png": "/portfolio-react/static/media/typescript.8b37b576f163b005aecd.png",
+    "static/media/futebol.jpg": "/portfolio-react/static/media/futebol.915a6f58732bb77c8d81.jpg",
     "static/media/rostinho-feliz.png": "/portfolio-react/static/media/rostinho-feliz.8da6198b9bb2165e1845.png",
     "index.html": "/portfolio-react/index.html",
-    "main.4f81faa3.css.map": "/portfolio-react/static/css/main.4f81faa3.css.map",
-    "main.5bdcb3d3.js.map": "/portfolio-react/static/js/main.5bdcb3d3.js.map"
+    "main.11dfcfe7.css.map": "/portfolio-react/static/css/main.11dfcfe7.css.map",
+    "main.469146ca.js.map": "/portfolio-react/static/js/main.469146ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f81faa3.css",
-    "static/js/main.5bdcb3d3.js"
+    "static/css/main.11dfcfe7.css",
+    "static/js/main.469146ca.js"
   ]
 }

@@ -54,7 +54,7 @@ function Footer() {
                 className="bi bi-facebook"
                 viewBox="0 0 16 16"
               >
-                <path d={ d.imgsvg[0].facebook } />
+                <path d={ d.imgsvg[1].facebook } />
               </svg>
               <small className="">FaceBook</small>
             </a>
@@ -74,7 +74,7 @@ function Footer() {
                 className="bi bi-linkedin"
                 viewBox="0 0 16 16"
               >
-                <path d={ d.imgsvg[0].linkedin } />
+                <path d={ d.imgsvg[2].linkedin } />
               </svg>
               <small className="">Linkedin</small>
             </a>
@@ -94,7 +94,7 @@ function Footer() {
                 className="bi bi-instagram"
                 viewBox="0 0 16 16"
               >
-                <path d={ d.imgsvg[0].instagram } />
+                <path d={ d.imgsvg[3].instagram } />
               </svg>
               <small className="">Instagram</small>
             </a>
