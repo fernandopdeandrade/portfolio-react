@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SpinnerLoading from "../components/SpinnerLoading";
-import metaVerso from "../images/meta-verso.jpg";
+import {
+  metaVerso,
+} from "../images/index";
 import "../styles/Blog.css";
 
 const Blog = () => {

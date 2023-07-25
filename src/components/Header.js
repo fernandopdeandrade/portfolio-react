@@ -4,7 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
-import cropped_logoNando from "../images/cropped-logoNando.png";
+import {
+  croppedLogoNando,
+} from "../images/index";
 import "../styles/Header.css";
 import AlertDismissible from "./AlertDismissible";
 
@@ -73,7 +75,7 @@ const Header = () => {
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark ">
           <Link rel="icon" to="/">
-            <img src={cropped_logoNando} alt="logo" />
+            <img src={croppedLogoNando} alt="logo" />
           </Link>
           <button
             className="botao-menu-mobile"

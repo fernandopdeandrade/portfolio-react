@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SpinnerLoading from "../components/SpinnerLoading";
+import {
+  fernando,
+} from "../images/index";
 import "../styles/About.css";
 
 const About = () => {
@@ -50,7 +53,7 @@ const About = () => {
                 <div className="col align-self-start">
                   <img
                     className="img-sobre"
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/Fernando.jpg"
+                    src={fernando}
                     alt="Fernando Pereira de Andrade"
                   />
                 </div>

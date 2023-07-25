@@ -3,12 +3,21 @@ import Carousel from "react-bootstrap/Carousel";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SpinnerLoading from "../components/SpinnerLoading";
-import fundoSlide from "../images/fundo-colorido.png";
-import site1 from "../images/site1.jpg";
-import site2 from "../images/site2.jpg";
-import site3 from "../images/site3.jpg";
-import site4 from "../images/site4.jpg";
-import site5 from "../images/site5.jpg";
+import {
+  appRecipes,
+  fundoColorido,
+  futebol,
+  jogoQuiz,
+  restaurantOrders,
+  site1,
+  site2,
+  site3,
+  site4,
+  site5,
+  siteMecanica,
+  siteTransporte,
+  siteVendas,
+} from "../images/index";
 import "../styles/Carousel.css";
 
 const Projects = () => {
@@ -39,7 +48,7 @@ const Projects = () => {
           <div className="div-fundo-carousel">
             <img
               className="img-fundo-carousel"
-              src={fundoSlide}
+              src={fundoColorido}
               alt="fundo slide"
             />
             <Carousel fade>
@@ -100,8 +109,8 @@ const Projects = () => {
                   <div className="sites-portfolio-div-fotos">
                     <img
                       className="img-responsive"
-                      alt="img"
-                      src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/site-mecanica.jpg"
+                      alt="img site mecanica"
+                      src={siteMecanica}
                     />
                     <h4 className="titulo-modelo-site">Mecânica automotiva</h4>
                     <div className="comentario-titulo-modelo-site">
@@ -114,8 +123,8 @@ const Projects = () => {
                   <div className="sites-portfolio-div-fotos">
                     <img
                       className="img-responsive"
-                      alt="img"
-                      src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/site-transporte.jpg"
+                      alt="img site transporte"
+                      src={siteTransporte}
                     />
                     <h4 className="titulo-modelo-site">Transporte</h4>
                     <div className="comentario-titulo-modelo-site">
@@ -128,8 +137,8 @@ const Projects = () => {
                   <div className="sites-portfolio-div-fotos">
                     <img
                       className="img-responsive"
-                      alt="img"
-                      src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/site-vendas.jpg"
+                      alt="img site vendas"
+                      src={siteVendas}
                     />
                     <h4 className="titulo-modelo-site">Vendas e Negócios</h4>
                     <div className="comentario-titulo-modelo-site">
@@ -163,7 +172,7 @@ const Projects = () => {
                 <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                   <div id="HTML" className="a-quadradinhos">
                     <img
-                      src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/app-recipes.png"
+                      src={appRecipes}
                       alt=" Imagem do ícone app-recipes"
                     />
                     <div>
@@ -190,7 +199,7 @@ const Projects = () => {
                 <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                   <div id="HTML" className="a-quadradinhos">
                     <img
-                      src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/restaurante-orders.jpeg"
+                      src={restaurantOrders}
                       alt="Imagem do ícone restaurant-orders"
                     />
                     <div>
@@ -217,7 +226,7 @@ const Projects = () => {
                 <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                   <div id="HTML" className="a-quadradinhos">
                     <img
-                      src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/jogo-quiz.png"
+                      src={jogoQuiz}
                       alt=" Imagem do ícone jogo-quiz"
                     />
                     <div>
@@ -245,7 +254,7 @@ const Projects = () => {
                 <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                   <div id="HTML" className="a-quadradinhos">
                     <img
-                      src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/futebol.jpeg"
+                      src={futebol}
                       alt=" Imagem do ícone Futebol-Club"
                     />
                     <div>

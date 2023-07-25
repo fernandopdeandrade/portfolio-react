@@ -1,6 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import homeOffice from "../images/homeOffice.jpg";
+import {
+  bash,
+  bootstrap,
+  css,
+  docker,
+  homeOffice,
+  html,
+  java,
+  javascript,
+  mongodb,
+  mysql2,
+  nodejs,
+  python,
+  reactjs,
+  sql,
+  typescript,
+  unix,
+  windows,
+} from "../images/index";
 import "../styles/Main.css";
 
 const Main = () => {
@@ -60,8 +78,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/unix-removebg-preview.png"
-                    alt=" Imagem do ícone HTML"
+                    src={unix}
+                    alt=" Imagem do ícone Unix"
                   />
                   <div>
                     <h4 className=" titulo-quadradinhos">
@@ -86,8 +104,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/windows-removebg-preview.png"
-                    alt=" Imagem do ícone HTML"
+                    src={windows}
+                    alt=" Imagem do ícone windows"
                   />
                   <div>
                     <h4 className=" titulo-quadradinhos">
@@ -111,8 +129,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/bash-removebg-preview.png"
-                    alt=" Imagem do ícone HTML"
+                    src={bash}
+                    alt=" Imagem do ícone bash"
                   />
                   <div>
                     <h4 className=" titulo-quadradinhos">
@@ -137,7 +155,7 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/html-removebg-preview.png"
+                    src={html}
                     alt=" Imagem do ícone HTML"
                   />
                   <div>
@@ -163,8 +181,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="CSS" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/css-removebg-preview.png"
-                    alt=""
+                    src={css}
+                    alt="imagem do ícone CSS"
                   />
                   <div>
                     <h4 className=" titulo-quadradinhos">
@@ -188,8 +206,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="JavaScript" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/javscript-removebg-preview.png"
-                    alt=""
+                    src={javascript}
+                    alt="imagem do ícone JavaScript"
                   />
                   <div>
                     <h4 className=" titulo-quadradinhos">
@@ -212,8 +230,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="NodeJs" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/nodejs-removebg-preview.png"
-                    alt=""
+                    src={nodejs}
+                    alt="imagem do ícone NodeJs"
                   />
                   <div>
                     <h4 className="titulo-quadradinhos">
@@ -237,8 +255,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="Bootstrap" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/bootstrap2-removebg-preview.png"
-                    alt=""
+                    src={bootstrap}
+                    alt="imagem do ícone Bootstrap"
                   />
                   <div>
                     <h4 className="titulo-quadradinhos">
@@ -262,8 +280,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="ReactJs" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/react2-removebg-preview.png"
-                    alt=""
+                    src={reactjs}
+                    alt="imagem do ícone ReactJs"
                   />
                   <div>
                     <h4 className="titulo-quadradinhos">
@@ -287,8 +305,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="MongoDB" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/mongodb-removebg-preview.png"
-                    alt=""
+                    src={mongodb}
+                    alt="imagem do ícone MongoDB"
                   />
                   <div>
                     <h4 className="titulo-quadradinhos">
@@ -312,8 +330,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="Mysql" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/mysql2-removebg-preview (2).png"
-                    alt=""
+                    src={mysql2}
+                    alt="imagem do ícone Mysql"
                   />
                   <div>
                     <h4 className="titulo-quadradinhos">
@@ -337,8 +355,8 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/sql-removebg-preview.png"
-                    alt=" Imagem do ícone HTML"
+                    src={sql}
+                    alt=" Imagem do ícone sql"
                   />
                   <div>
                     <h4 className=" titulo-quadradinhos">
@@ -362,7 +380,7 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/docker.png"
+                    src={docker}
                     alt=" Imagem do ícone docker"
                   />
                   <div>
@@ -389,7 +407,7 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/typescript.png"
+                    src={typescript}
                     alt=" Imagem do ícone typescript"
                   />
                   <div>
@@ -414,7 +432,7 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/python.jpeg"
+                    src={python}
                     alt=" Imagem do ícone python"
                   />
                   <div>
@@ -440,7 +458,7 @@ const Main = () => {
               <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                 <div id="HTML" className="a-quadradinhos">
                   <img
-                    src="https://fernandopdeandrade.github.io/portfolio-github-io/public/images/java.png"
+                    src={java}
                     alt=" Imagem do ícone python"
                   />
                   <div>
