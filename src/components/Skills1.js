@@ -160,7 +160,9 @@ function Skills1() {
           <div>
             <p className="conect-mensagem">
               TypeScript é uma linguagem de programação de código aberto
-              desenvolvida pela Microsoft.
+              desenvolvida pela Microsoft. É um superconjunto sintático
+              estrito de JavaScript e adiciona tipagem estática opcional
+              à linguagem.
             </p>
           </div>
         </div>

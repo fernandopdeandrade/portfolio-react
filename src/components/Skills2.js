@@ -85,7 +85,7 @@ function Skills2() {
             <p className="conect-mensagem">
               GNU Bash ou simplesmente Bash é um interpretador de
               comandos, um entre os diversos tradutores entre o usuário
-              e o sistema operacional conhecidos como shell..
+              e o sistema operacional.
             </p>
           </div>
         </div>
@@ -135,8 +135,14 @@ function Skills2() {
           </div>
           <div>
             <p className="conect-mensagem">
-              Cascading Style Sheets é um mecanismo para adicionar
-              estilo a um documento web.
+              Cascading Style Sheets é um mecanismo para adicionar estilos
+              a uma página web, aplicado diretamente nas tags HTML ou ficar
+              contido dentro das tags
+              {' '}
+              {'<style>'}
+              . Também é possível, adicionar
+              estilos adicionando um link para um arquivo CSS que contém os
+              estilos.
             </p>
           </div>
         </div>
@@ -160,7 +166,10 @@ function Skills2() {
           </div>
           <div>
             <p className="conect-mensagem">
-              Linguagem de programação, uma das mais usadas no mundo.
+              JavaScript é uma linguagem de programação interpretada estruturada,
+              de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+              Juntamente com HTML e CSS, o JavaScript é uma das três principais
+              tecnologias da World Wide Web.
             </p>
           </div>
         </div>
@@ -184,8 +193,10 @@ function Skills2() {
           </div>
           <div>
             <p className="conect-mensagem">
-              Software de código aberto, multiplataforma, baseado no
-              interpretador V8 do Google.
+              Node.js é um software de código aberto, multiplataforma, baseado
+              no interpretador V8 do Google e que permite a execução de códigos
+              JavaScript fora de um navegador web. A principal característica do
+              Node.js é sua arquitetura assíncrona e orientada por eventos.
             </p>
           </div>
         </div>
@@ -209,8 +220,13 @@ function Skills2() {
           </div>
           <div>
             <p className="conect-mensagem">
-              Framework web de código fonte aberto usado por
-              desenvolvedores.
+              <p>
+                Bootstrap é um framework web com código-fonte aberto para
+                desenvolvimento de componentes de interface e front-end
+                para sites e aplicações web, usando HTML, CSS e JavaScript,
+                baseado em modelos de design para a tipografia, melhorando
+                a experiência do usuário em um site amigável e responsivo.
+              </p>
             </p>
           </div>
         </div>

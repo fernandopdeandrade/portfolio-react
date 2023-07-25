@@ -46,15 +46,7 @@ function Main() {
 
         <br />
         <div className="divisoria-home">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-header">
-                <h1 className="widget-title">Algumas das minhas Skills.</h1>
-                <div className="widget-separator" />
-                <div className="separator" />
-              </div>
-            </div>
-          </div>
+          <h1 className="widget-title">Algumas das minhas Skills.</h1>
         </div>
 
         <div className="clear" />
