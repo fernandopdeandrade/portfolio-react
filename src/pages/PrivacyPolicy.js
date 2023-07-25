@@ -1,16 +1,18 @@
-import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import SpinnerLoading from "../components/SpinnerLoading";
-import "../styles/PrivacyPolicy.css";
+import React, { useEffect, useState } from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import SpinnerLoading from '../components/SpinnerLoading';
+import '../styles/PrivacyPolicy.css';
 
-const PrivacyPolicy = () => {
+function PrivacyPolicy() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const thousand = 1000;
+
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, thousand);
   }, []);
 
   return (
@@ -24,8 +26,11 @@ const PrivacyPolicy = () => {
             <div className="privacidade-text">
               <h1>Política de Privacidade</h1>
               <p>
-                Esta Política de Privacidade descreve como a{" "}
-                <b>NandoDev - LTDA</b> coleta, usa e compartilha suas
+                Esta Política de Privacidade descreve como a
+                {' '}
+                <b>NandoDev - LTDA</b>
+                {' '}
+                coleta, usa e compartilha suas
                 informações pessoais quando você visita nosso site ou usa nossos
                 serviços.
               </p>
@@ -72,7 +77,10 @@ const PrivacyPolicy = () => {
                 Você pode acessar, corrigir ou excluir suas informações
                 pessoais. Você também pode optar por não receber comunicações de
                 marketing de nossa parte. Para fazer isso, entre em contato
-                conosco pelo <b>pupygreen@gmail.com - 55 (55) 99979-0568</b>.
+                conosco pelo
+                {' '}
+                <b>pupygreen@gmail.com - 55 (55) 99979-0568</b>
+                .
               </p>
               <p>
                 Esta Política de Privacidade pode ser alterada periodicamente.
@@ -87,6 +95,6 @@ const PrivacyPolicy = () => {
       )}
     </>
   );
-};
+}
 
 export default PrivacyPolicy;

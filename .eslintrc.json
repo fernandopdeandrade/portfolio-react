@@ -1,0 +1,15 @@
+{
+  "extends": "trybe-frontend",
+  "overrides": [
+    {
+      "files": [
+        "src/tests/**/*.js"
+      ],
+      "rules": {
+        "no-magic-numbers": [
+          "off"
+        ]
+      }
+    }
+  ]
+}

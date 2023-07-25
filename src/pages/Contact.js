@@ -1,67 +1,72 @@
-import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import SpinnerLoading from "../components/SpinnerLoading";
+import React, { useEffect, useState } from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import SpinnerLoading from '../components/SpinnerLoading';
 import {
   rostinhoFeliz,
-} from "../images/index";
-import "../styles/Formulario.css";
+} from '../images/index';
+import '../styles/Formulario.css';
 
-const Contact = () => {
+function Contact() {
   const [loading, setLoading] = useState(true);
-  const [nome, setNome] = useState("");
-  const [email, setEmail] = useState("");
-  const [data, setData] = useState("");
-  const [cidade, setCidade] = useState("");
-  const [estado, setEstado] = useState("");
-  const [mensagem, setMensagem] = useState("");
+  const [nome, setNome] = useState('');
+  const [email, setEmail] = useState('');
+  const [data, setData] = useState('');
+  const [cidade, setCidade] = useState('');
+  const [estado, setEstado] = useState('');
+  const [mensagem, setMensagem] = useState('');
 
   useEffect(() => {
+    const thousand = 1000;
+
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, thousand);
   }, []);
 
   const validarFormulario = () => {
-    const emailRegex =
-      /^([a-zA-Z0-9_.+-])+@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    const three = 3;
+    const ten = 10;
+    const two = 2;
+    const fiveHundred = 500;
+    const emailRegex = /^([a-zA-Z0-9_.+-])+@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
-    if (nome.length < 3) {
-      alert("Nome precisa ter mais de 3 caracteres!");
+    if (nome.length < three) {
+      global.alert('Nome precisa ter mais de 3 caracteres!');
       return false;
     }
 
     if (!emailRegex.test(email)) {
-      alert("Email precisa ter esse formato = user@email.com");
+      global.alert('Email precisa ter esse formato = user@email.com');
       return false;
     }
 
-    if (cidade.length < 3) {
-      alert("Cidade precisa ter mais de 3 caracteres!");
+    if (cidade.length < three) {
+      global.alert('Cidade precisa ter mais de 3 caracteres!');
       return false;
     }
 
-    if (data.length < 10) {
-      alert("Data precisa ter 10 ou mais caracteres!");
+    if (data.length < ten) {
+      global.alert('Data precisa ter 10 ou mais caracteres!');
       return false;
     }
 
-    if (estado.length < 2) {
-      alert("Estado precisa ter mais de 2 caracteres!");
+    if (estado.length < two) {
+      global.alert('Estado precisa ter mais de 2 caracteres!');
       return false;
     }
 
-    if (mensagem.length < 10) {
-      alert("Mensagem precisa ter mais de 10 caracteres!");
+    if (mensagem.length < ten) {
+      global.alert('Mensagem precisa ter mais de 10 caracteres!');
       return false;
     }
 
-    setTimeout(function () {
-      document.querySelector("#nome").value = "";
-      document.querySelector("#email").value = "";
-      document.querySelector("#cidade").value = "";
-      document.querySelector("#mensagem").value = "";
-    }, 500);
+    setTimeout(() => {
+      document.querySelector('#nome').value = '';
+      document.querySelector('#email').value = '';
+      document.querySelector('#cidade').value = '';
+      document.querySelector('#mensagem').value = '';
+    }, fiveHundred);
   };
 
   return (
@@ -98,7 +103,7 @@ const Contact = () => {
                 id="nome"
                 placeholder="Nome..."
                 required
-                onChange={(e) => setNome(e.target.value)}
+                onChange={ (e) => setNome(e.target.value) }
               />
               <input
                 type="email"
@@ -106,7 +111,7 @@ const Contact = () => {
                 id="email"
                 placeholder="E-mail..."
                 required
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={ (e) => setEmail(e.target.value) }
               />
               <input
                 type="text"
@@ -114,18 +119,18 @@ const Contact = () => {
                 id="cidade"
                 placeholder="Cidade..."
                 required
-                onChange={(e) => setCidade(e.target.value)}
+                onChange={ (e) => setCidade(e.target.value) }
               />
-              <label htmlFor="">Data</label>
+              <label htmlFor="data">Data</label>
               <input
                 type="date"
                 name="dataNascimento"
                 id="data"
                 placeholder="Data"
                 required
-                onChange={(e) => setData(e.target.value)}
+                onChange={ (e) => setData(e.target.value) }
               />
-              <label className="estado" htmlFor="">
+              <label className="estado" htmlFor="estado">
                 Estado
               </label>
               <input
@@ -134,13 +139,14 @@ const Contact = () => {
                 id="estado"
                 placeholder="Estado"
                 required
-                onChange={(e) => setEstado(e.target.value)}
+                onChange={ (e) => setEstado(e.target.value) }
               />
               <label className="mensagem-text-area" htmlFor="">
-                Deixe uma mensagem para mim!{" "}
+                Deixe uma mensagem para mim!
+                {' '}
                 <img
                   className="carinha-sorrindo"
-                  src={rostinhoFeliz}
+                  src={ rostinhoFeliz }
                   alt="Emoji"
                 />
               </label>
@@ -151,12 +157,12 @@ const Contact = () => {
                 rows="5"
                 placeholder="Mensagem"
                 required
-                onChange={(e) => setMensagem(e.target.value)}
-              ></textarea>
+                onChange={ (e) => setMensagem(e.target.value) }
+              />
               <input
                 id="btn"
                 className="btn btn-success botao-formulario-contato"
-                onClick={() => validarFormulario()}
+                onClick={ () => validarFormulario() }
                 type="submit"
                 defaultValue="Enviar"
               />
@@ -167,6 +173,6 @@ const Contact = () => {
       )}
     </>
   );
-};
+}
 
 export default Contact;

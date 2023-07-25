@@ -1,20 +1,22 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import SpinnerLoading from "../components/SpinnerLoading";
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import SpinnerLoading from '../components/SpinnerLoading';
 import {
   fernando,
-} from "../images/index";
-import "../styles/About.css";
+} from '../images/index';
+import '../styles/About.css';
 
-const About = () => {
+function About() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const thousand = 1000;
+
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, thousand);
   }, []);
 
   return (
@@ -24,7 +26,7 @@ const About = () => {
       ) : (
         <>
           <Header />
-          <div className="qualquer"></div>
+          <div className="qualquer" />
           <div className="me-encontre">
             <h5 className="card-title-sobre">Me encontre no google maps</h5>
             <iframe
@@ -36,7 +38,7 @@ const About = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            />
             <div className="d-flex flex-column">
               <p className="card-text align-self-center">
                 Escritorio: Rua Apolôlio Rodrigues, nº 1190 Uruguaiana RS
@@ -53,20 +55,22 @@ const About = () => {
                 <div className="col align-self-start">
                   <img
                     className="img-sobre"
-                    src={fernando}
+                    src={ fernando }
                     alt="Fernando Pereira de Andrade"
                   />
                 </div>
                 <div className="col align-self-center">
                   <p>
                     <strong className="um-pouco-sobre-mim">
-                      "Um pouco sobre mim."
+                      `Um pouco sobre mim`...
                     </strong>
                     <br />
                     <em>
-                      Olá, me chamo <b>Fernando Pereira de Andrade.</b>
+                      Olá, me chamo
+                      {' '}
+                      <b>Fernando Pereira de Andrade.</b>
                       <br />
-                      Neste 'Portfólio' venho compartilhar um pouco do meu
+                      Neste `Portfólio` venho compartilhar um pouco do meu
                       conhecimento em algumas tecnologias.
                     </em>
                   </p>
@@ -88,6 +92,6 @@ const About = () => {
       )}
     </>
   );
-};
+}
 
 export default About;

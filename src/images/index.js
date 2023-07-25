@@ -67,6 +67,5 @@ export {
   sql,
   typescript,
   unix,
-  windows
+  windows,
 };
-

@@ -1,70 +1,71 @@
-import React, { useEffect, useState } from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 import {
   croppedLogoNando,
-} from "../images/index";
-import "../styles/Header.css";
-import AlertDismissible from "./AlertDismissible";
+} from '../images/index';
+import '../styles/Header.css';
+import AlertDismissible from './AlertDismissible';
 
-const Header = () => {
+function Header() {
   const [alert, setAlert] = useState(false);
   const [toggle, setToggle] = useState(false);
 
   const toggleMenu = () => {
-    const menu = document.getElementById("conteudoNavbarSuportado");
+    const menu = document.getElementById('conteudoNavbarSuportado');
 
     if (toggle) {
-      menu.style.display = "none";
+      menu.style.display = 'none';
       setToggle(false);
     } else {
-      menu.style.display = "block";
+      menu.style.display = 'block';
       setToggle(true);
     }
   };
 
   useEffect(() => {
-    const botao_pesquisa = document.getElementById("pesquisa");
-    const menu_li_a = document.querySelectorAll(".menu li a");
-    const menu = document.getElementById("menu");
-    const input_pesquisa = document.querySelector("#input_pesquisa");
+    const botaoPesquisa = document.getElementById('pesquisa');
+    const menuLiA = document.querySelectorAll('.menu li a');
+    const menu = document.getElementById('menu');
+    const inputPesquisa = document.querySelector('#inputPesquisa');
 
-    input_pesquisa.addEventListener("mouseover", function (e) {
+    inputPesquisa.addEventListener('mouseover', (e) => {
       e.preventDefault();
-      menu.style.display = "block";
+      menu.style.display = 'block';
     });
 
-    document.addEventListener("click", function (e) {
-      if (e.target.id !== "menu") {
-        menu.style.display = "none";
+    document.addEventListener('click', (e) => {
+      if (e.target.id !== 'menu') {
+        menu.style.display = 'none';
       }
     });
 
-    for (let i = 0; i < menu_li_a.length; i++) {
-      menu_li_a[i].addEventListener("click", function (e) {
+    for (let i = 0; i < menuLiA.length; i += 1) {
+      menuLiA[i].addEventListener('click', (e) => {
         e.preventDefault();
-        input_pesquisa.value = this.innerHTML;
-        menu.style.display = "none";
+        inputPesquisa.value = e.target.innerText;
+        menu.style.display = 'none';
       });
     }
 
-    botao_pesquisa.addEventListener("click", function (e) {
+    botaoPesquisa.addEventListener('click', (e) => {
       e.preventDefault();
-      const elemento = document.getElementById(input_pesquisa.value);
+      const elemento = document.getElementById(inputPesquisa.value);
+      const fifteenHundred = 1500;
 
       if (elemento) {
         elemento.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
+          behavior: 'smooth',
+          block: 'start',
         });
       } else {
         setAlert(true);
         setTimeout(() => {
           setAlert(false);
-        }, 15000);
+        }, fifteenHundred);
       }
     });
   }, []);
@@ -75,12 +76,12 @@ const Header = () => {
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark ">
           <Link rel="icon" to="/">
-            <img src={croppedLogoNando} alt="logo" />
+            <img src={ croppedLogoNando } alt="logo" />
           </Link>
           <button
             className="botao-menu-mobile"
             type="button"
-            onClick={toggleMenu}
+            onClick={ toggleMenu }
           >
             <span className="span-menu-mobile">Menu</span>
           </button>
@@ -120,7 +121,7 @@ const Header = () => {
             </ul>
             <form className="form-inline my-2 my-lg-0">
               <input
-                id="input_pesquisa"
+                id="inputPesquisa"
                 className="form-pesquisar mr-sm-2"
                 type="search"
                 placeholder="Pesquisar"
@@ -196,6 +197,6 @@ const Header = () => {
       </header>
     </>
   );
-};
+}
 
 export default Header;

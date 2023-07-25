@@ -1,16 +1,18 @@
-import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Main from "../components/Main";
-import SpinnerLoading from "../components/SpinnerLoading";
+import React, { useEffect, useState } from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Main from '../components/Main';
+import SpinnerLoading from '../components/SpinnerLoading';
 
-const Home = () => {
+function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const thousand = 1000;
+
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, thousand);
   }, []);
 
   return (
@@ -26,6 +28,6 @@ const Home = () => {
       )}
     </>
   );
-};
+}
 
 export default Home;

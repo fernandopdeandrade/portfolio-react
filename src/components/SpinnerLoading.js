@@ -1,5 +1,5 @@
-import Spinner from "react-bootstrap/Spinner";
-import "../styles/SpinnerLoading.css";
+import Spinner from 'react-bootstrap/Spinner';
+import '../styles/SpinnerLoading.css';
 
 function SpinnerLoading() {
   return (
@@ -9,14 +9,14 @@ function SpinnerLoading() {
           animation="border"
           variant="warning"
           size="lg"
-          style={{
-            position: "absolute",
-            top: "40%",
-            zIndex: "999",
-            height: "120px",
-            width: "120px",
-          }}
-        ></Spinner>
+          style={ {
+            position: 'absolute',
+            top: '40%',
+            zIndex: '999',
+            height: '120px',
+            width: '120px',
+          } }
+        />
         <span className="span-loading">Loading...</span>
       </div>
     </>

@@ -1,7 +1,7 @@
-import { useState } from "react";
-import Alert from "react-bootstrap/Alert";
-import Button from "react-bootstrap/Button";
-import "../styles/AlertDismissible.css";
+import { useState } from 'react';
+import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
+import '../styles/AlertDismissible.css';
 
 function AlertDismissible() {
   const [show, setShow] = useState(true);
@@ -17,7 +17,7 @@ function AlertDismissible() {
           </p>
           <hr />
           <div className="d-flex justify-content-end">
-            <Button onClick={() => setShow(false)} variant="outline-success">
+            <Button onClick={ () => setShow(false) } variant="outline-success">
               Fechar
             </Button>
           </div>

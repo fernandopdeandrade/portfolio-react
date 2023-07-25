@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import SpinnerLoading from "../components/SpinnerLoading";
+import React, { useEffect, useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import SpinnerLoading from '../components/SpinnerLoading';
 import {
   appRecipes,
   fundoColorido,
@@ -17,16 +17,18 @@ import {
   siteMecanica,
   siteTransporte,
   siteVendas,
-} from "../images/index";
-import "../styles/Carousel.css";
+} from '../images/index';
+import '../styles/Carousel.css';
 
-const Projects = () => {
+function Projects() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const thousand = 1000;
+
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, thousand);
   }, []);
 
   return (
@@ -38,8 +40,8 @@ const Projects = () => {
           <Header />
           <div
             className="space-separator"
-            style={{ height: "150px", width: "100%", marginBottom: "20px" }}
-          ></div>
+            style={ { height: '150px', width: '100%', marginBottom: '20px' } }
+          />
 
           <div className="divisoria-projects">
             <h1>Alguns modelos de sites replicados.</h1>
@@ -48,37 +50,37 @@ const Projects = () => {
           <div className="div-fundo-carousel">
             <img
               className="img-fundo-carousel"
-              src={fundoColorido}
+              src={ fundoColorido }
               alt="fundo slide"
             />
             <Carousel fade>
               <Carousel.Item>
                 <img
                   className="imagem-slide"
-                  src={site1}
+                  src={ site1 }
                   alt="Primeiro Slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="imagem-slide" src={site2} alt="Segundo Slide" />
+                <img className="imagem-slide" src={ site2 } alt="Segundo Slide" />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="imagem-slide"
-                  src={site3}
+                  src={ site3 }
                   alt="Terceiro Slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="imagem-slide" src={site4} alt="Quarto Slide" />
+                <img className="imagem-slide" src={ site4 } alt="Quarto Slide" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="imagem-slide" src={site5} alt="Quinto Slide" />
+                <img className="imagem-slide" src={ site5 } alt="Quinto Slide" />
               </Carousel.Item>
             </Carousel>
           </div>
 
-          <div className="clear"></div>
+          <div className="clear" />
 
           <div id="Sites" className="divisoria mt-5">
             <div className="row">
@@ -92,7 +94,7 @@ const Projects = () => {
                     Outros modelos de Sites!
                   </h1>
                   <div className="widget-separator">
-                    <span></span>
+                    <span />
                   </div>
                   <p className="wow fadeInDown animated animated conect-mensagem">
                     Sites replicados.
@@ -110,7 +112,7 @@ const Projects = () => {
                     <img
                       className="img-responsive"
                       alt="img site mecanica"
-                      src={siteMecanica}
+                      src={ siteMecanica }
                     />
                     <h4 className="titulo-modelo-site">Mecânica automotiva</h4>
                     <div className="comentario-titulo-modelo-site">
@@ -124,7 +126,7 @@ const Projects = () => {
                     <img
                       className="img-responsive"
                       alt="img site transporte"
-                      src={siteTransporte}
+                      src={ siteTransporte }
                     />
                     <h4 className="titulo-modelo-site">Transporte</h4>
                     <div className="comentario-titulo-modelo-site">
@@ -138,7 +140,7 @@ const Projects = () => {
                     <img
                       className="img-responsive"
                       alt="img site vendas"
-                      src={siteVendas}
+                      src={ siteVendas }
                     />
                     <h4 className="titulo-modelo-site">Vendas e Negócios</h4>
                     <div className="comentario-titulo-modelo-site">
@@ -152,11 +154,12 @@ const Projects = () => {
             </div>
           </section>
 
-          <div id="Projetos" className="clear"></div>
+          <div id="Projetos" className="clear" />
 
           <div className="divisoria">
             <h1>Alguns dos meus projetos</h1>
-            <b>Meu github</b>{" "}
+            <b>Meu github</b>
+            {' '}
             <a
               href="https://github.com/fernandopdeandrade"
               target="_blank"
@@ -172,7 +175,7 @@ const Projects = () => {
                 <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                   <div id="HTML" className="a-quadradinhos">
                     <img
-                      src={appRecipes}
+                      src={ appRecipes }
                       alt=" Imagem do ícone app-recipes"
                     />
                     <div>
@@ -199,7 +202,7 @@ const Projects = () => {
                 <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                   <div id="HTML" className="a-quadradinhos">
                     <img
-                      src={restaurantOrders}
+                      src={ restaurantOrders }
                       alt="Imagem do ícone restaurant-orders"
                     />
                     <div>
@@ -226,7 +229,7 @@ const Projects = () => {
                 <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                   <div id="HTML" className="a-quadradinhos">
                     <img
-                      src={jogoQuiz}
+                      src={ jogoQuiz }
                       alt=" Imagem do ícone jogo-quiz"
                     />
                     <div>
@@ -254,7 +257,7 @@ const Projects = () => {
                 <div className="col-md-6 col-sm-6 col-xs-12 quadradinhos-imagem-texto">
                   <div id="HTML" className="a-quadradinhos">
                     <img
-                      src={futebol}
+                      src={ futebol }
                       alt=" Imagem do ícone Futebol-Club"
                     />
                     <div>
@@ -286,6 +289,6 @@ const Projects = () => {
       )}
     </>
   );
-};
+}
 
 export default Projects;

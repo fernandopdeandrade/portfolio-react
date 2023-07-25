@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/MessageResponse.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/MessageResponse.css';
 
-const SuccessMessage = () => {
+function SuccessMessage() {
   return (
     <div className="success">
       <h1>Success!</h1>
@@ -15,6 +15,6 @@ const SuccessMessage = () => {
       </Link>
     </div>
   );
-};
+}
 
 export default SuccessMessage;
