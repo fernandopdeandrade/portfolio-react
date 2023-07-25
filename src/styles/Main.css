@@ -1,86 +1,85 @@
 .car-img-overlay {
   background-color: #66206f;
-  width: 100%;
   height: 100%;
-  top: 0;
   left: 0;
+  top: 0;
+  width: 100%;
   z-index: -1;
 }
 
 .imagem-home-principal {
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 600px;
-  width: 100%;
   margin: 90px auto;
   margin-bottom: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .card-title {
-  font-family: "lato";
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  z-index: 2;
   color: #ff9f00;
   font-size: 50px;
   margin-top: 200px;
   padding: 20px 2%;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
 }
 
 .small-developer {
-  text-align: center;
   color: #66206f;
   font-size: 40px;
   margin-top: 20px;
+  text-align: center;
 }
 
 .strong-developer {
-  text-align: center;
   color: #ff9f00;
   font-size: 50px;
   margin-top: 20px;
+  text-align: center;
 }
 
 .div-card-texto {
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  z-index: 2;
   font-size: 18px;
-  padding: 20px 2%;
-  width: 80%;
   margin: 50px auto;
+  padding: 20px 2%;
+  text-align: center;
+  width: 80%;
+  z-index: 2;
 }
 
 .botao-titulo-card {
   background-color: rgba(40, 167, 69, 0.2);
+  border: none;
+  border-radius: 5px;
   color: white;
   font-size: 16px;
-  padding: 10px 10px;
-  border-radius: 5px;
-  border: none;
+  padding: 10px;
   transition: 0.2s;
 }
 
 .botao-titulo-card:hover {
-  color: white;
   background-color: #28a745;
+  color: white;
 }
 
 .botao-titulo-card:active {
-  transition: none;
-  box-shadow: 3px 3px 3px 0px white;
+  box-shadow: 3px 3px 3px 0 white;
   scale: 0.95;
+  transition: none;
 }
 
 /* divisória */
 .divisoria {
+  background-color: rgba(0, 0, 0, 0.1);
   margin: auto;
   padding: 20px 0;
   text-align: center;
   width: 80%;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .divisoria h1 {
@@ -90,13 +89,14 @@
 
 /* projetos */
 .section-module {
+  margin-bottom: 30px;
   padding: 20px;
 }
 
 .section-header {
+  margin-top: 30px;
   text-align: center;
   width: 100%;
-  margin-top: 30px;
 }
 
 .a-quadradinhos {
@@ -104,27 +104,27 @@
 }
 
 .a-quadradinhos img {
-  width: 100px;
   height: 100px;
+  width: 100px;
 }
 
 .quadradinhos-imagem-texto {
-  width: 100%;
-  height: 100%;
-  margin-top: 2px;
   background-color: rgb(216, 211, 211);
-  padding: 20px 10px;
-  text-align: center;
+  border: 5px solid white;
   color: black;
   font-size: 15px;
+  height: 100%;
+  margin-top: 2px;
+  padding: 20px 10px;
+  text-align: center;
   transition: all 0.2s;
-  border: 5px solid white;
+  width: 100%;
 }
 
 .titulo-quadradinhos {
   font-size: 20px;
-  text-align: center;
   margin-top: 20px;
+  text-align: center;
   text-decoration: none;
   transition: all 0.2s;
 }
@@ -140,19 +140,19 @@
 
 .quadradinhos-imagem-texto:hover {
   background-color: #66206f;
-  color: white;
   border-radius: 5px;
+  color: white;
 }
 
 /* outros modelos de sites */
 .portfolio-section {
-  width: 100%;
   margin-top: 30px;
+  width: 100%;
 }
 
 .sites-portfolio {
-  width: 100%;
   margin-top: 30px;
+  width: 100%;
 }
 
 .sites-portfolio-div {
@@ -161,8 +161,8 @@
 
 .sites-portfolio-div-fotos {
   border: 1px solid #66206f;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.75);
   margin-bottom: 50px;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .sites-portfolio-div-fotos img {
@@ -170,20 +170,16 @@
 }
 
 .titulo-modelo-site {
-  text-align: center;
-  margin-top: 20px;
   color: #66206f;
   font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .comentario-titulo-modelo-site {
+  margin-bottom: 50px;
+  margin-top: 10px;
   padding: 0 10px;
   text-align: center;
-  margin-top: 10px;
   transition: 0.5s;
-  margin-bottom: 50px;
-}
-
-.section-module {
-  margin-bottom: 30px;
 }

@@ -1,41 +1,40 @@
-/* formulario */
 .formulario-contato {
   background-color: #f6f6f6;
-  width: 100%;
-  padding: 20px 0;
   height: 100vh;
   margin-bottom: 150px;
+  padding: 20px 0;
+  width: 100%;
 }
 
 .formulario-contato-form {
-  border-radius: 2px;
-  width: 50%;
-  margin: 0 auto;
-  padding: 20px 2%;
+  background-color: white;
   border: 1px solid gray;
-  margin-top: 20px;
+  border-radius: 2px;
+  margin: 0 auto;
   margin-bottom: 10px;
-  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  padding: 20px 2%;
+  width: 50%;
 }
 
 .chamada-formulario-contato {
+  color: gray;
   margin-top: 110px;
   text-align: center;
-  color: gray;
 }
 
 .formulario-contato-form input {
-  width: 100%;
-  padding: 10px;
   border: 1px solid rgb(153, 152, 152);
   border-radius: 2px;
   margin-bottom: 30px;
   outline: none;
+  padding: 10px;
+  width: 100%;
 }
 
 .formulario-contato-form label {
-  font-size: 20px;
   color: gray;
+  font-size: 20px;
   margin-bottom: 2px;
 }
 
@@ -45,56 +44,56 @@
 }
 
 .formulario-contato-form textarea {
+  border-radius: 2px;
+  margin-top: 20px;
   outline: none;
   padding-left: 10px;
   padding-top: 5px;
-  margin-top: 20px;
   width: 100%;
-  border-radius: 2px;
 }
 
-#estado {
-  width: 80px;
-  margin-left: 5px;
-}
-
-.estado {
+.formulario-contato-form .estado {
   margin-left: 10px;
 }
 
-#data {
-  width: 200px;
-  margin-left: 5px;
+.formulario-contato-form input[ name = 'estado' ] {
+  margin-left: 10px;
+  width: 80px;
+}
+
+.formulario-contato-form input[ type = 'date' ] {
+  margin: 10px;
+  width: 218px;
 }
 
 label.mensagem-text-area {
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 .botao-formulario-contato {
-  transition: 0.5s;
-  margin-top: 20px;
   border: none;
+  margin-top: 20px;
+  transition: 0.5s;
 }
 
 .botao-formulario-contato:hover {
-  transition-timing-function: ease-in-out;
-  font-size: 16px;
   background-color: #1cbd41;
+  font-size: 16px;
+  transition-timing-function: ease-in-out;
 }
 
-.formulario-contato-form input[type="text"]:hover {
+.formulario-contato-form input[ type = 'text' ]:hover {
   background-color: #f4eff4;
 }
 
-.formulario-contato-form input[type="email"]:hover {
+.formulario-contato-form input[ type = 'email' ]:hover {
   background-color: #f4eff4;
 }
 
-.formulario-contato-form input[type="date"]:hover {
+.formulario-contato-form input[ type = 'date' ]:hover {
   background-color: #f4eff4;
 }
 

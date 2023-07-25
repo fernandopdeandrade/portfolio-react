@@ -1,21 +1,21 @@
 .main-tecnologia {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100%;
   justify-content: center;
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
   padding: 0 1rem;
+  width: 100%;
 }
 
 .main-tecnologia .div-tecnologia {
-  margin-top: 150px;
-  margin-bottom: 20px;
-  padding: 50px;
   border-radius: 10px;
-  width: 100%;
   height: 100%;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  padding: 50px;
+  width: 100%;
 }
 
 .main-tecnologia .div-tecnologia h1 {
@@ -27,6 +27,17 @@
   text-align: center;
 }
 
+article .img-p p {
+  border-bottom: 1px solid rgb(8, 40, 81);
+  border-left: 1px solid rgb(8, 40, 81);
+  box-shadow: 10px 5px 5px 0 rgba(0, 0, 0, 0.8);
+  color: rgb(8, 40, 81);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 20px;
+  text-align: left;
+}
+
 .main-tecnologia .div-tecnologia p {
   color: rgb(8, 40, 81);
   font-size: 1.2rem;
@@ -36,9 +47,9 @@
 }
 
 .primary {
+  border-radius: 10px;
   margin-bottom: 50px;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .main-tecnologia .div-tecnologia h3 {
@@ -49,33 +60,22 @@
 }
 
 article .o-que-e {
+  background-color: rgb(8, 40, 81);
   border: 5px solid rgb(255, 159, 0);
   border-radius: 10px;
+  color: white;
   margin-bottom: 50px;
   padding: 10px;
-  color: white !important;
-  background-color: rgb(8, 40, 81);
 }
 
 article .img-p {
-  display: flex;
   align-items: center;
-}
-
-article .img-p p {
-  color: rgb(8, 40, 81);
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  padding: 20px;
-  text-align: left;
-  border-bottom: 1px solid rgb(8, 40, 81);
-  border-left: 1px solid rgb(8, 40, 81);
-  box-shadow: 10px 5px 5px 0 rgba(0, 0, 0, 0.8);
+  display: flex;
 }
 
 article .img-p img {
-  width: 100%;
-  height: 100%;
   border-radius: 10px;
   box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
 }

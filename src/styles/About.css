@@ -1,7 +1,7 @@
 .me-encontre {
+  padding: 20px;
   text-align: center;
   width: 100%;
-  padding: 20px;
 }
 
 .qualquer {
@@ -10,43 +10,43 @@
 }
 
 iframe {
-  margin-top: 20px;
   border: 1px solid #66206f;
-  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+  padding: 20px;
 }
 
 .align-self-center {
-  margin-top: 20px;
   border: none;
-  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+  padding: 20px;
 }
 
 .card-title-sobre {
-  width: 100%;
-  font-size: 2.5rem;
-  font-weight: bold;
   color: #66206f;
+  font-size: 2.5rem;
+  font-weight: 700;
   text-align: center;
+  width: 100%;
 }
 
 .sobre-mim {
+  background-color: rgba(255, 251, 2, 0.2);
   border: 1px solid #66206f;
-  padding: 10px 2%;
+  height: 100%;
   margin-bottom: 50px;
   margin-top: 50px;
-  background-color: rgba(255, 251, 2, 0.2);
+  padding: 10px 2%;
   width: 100%;
-  height: 100%;
   z-index: -1;
 }
 
 .img-sobre {
+  border-radius: 50%;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.75);
   height: 200px;
   width: 200px;
-  border-radius: 50%;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }

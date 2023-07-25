@@ -1,33 +1,33 @@
 .politica-privacidade {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 .privacidade-text {
-  margin-top: 150px;
-  margin-bottom: 20px;
-  width: 80%;
-  padding: 20px;
-  background-color: #fff;
+  background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  padding: 20px;
   text-align: justify;
   text-justify: inter-word;
+  width: 80%;
 }
 
-div.politica-privacidade div.privacidade-text h1 {
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+.politica-privacidade .privacidade-text h1 {
   border-bottom: 1px solid black;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
   width: 400px;
 }
 
 .privacidade-text b {
-  font-weight: bold;
   color: rgb(102, 32, 111);
+  font-weight: 700;
 }
