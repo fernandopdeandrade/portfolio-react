@@ -54,7 +54,7 @@ function Header() {
     botaoPesquisa.addEventListener('click', (e) => {
       e.preventDefault();
       const elemento = document.getElementById(inputPesquisa.value);
-      const fifteenHundred = 1500;
+      const tenThousand = 10000;
 
       if (elemento) {
         elemento.scrollIntoView({
@@ -65,7 +65,7 @@ function Header() {
         setAlert(true);
         setTimeout(() => {
           setAlert(false);
-        }, fifteenHundred);
+        }, tenThousand);
       }
     });
   }, []);
