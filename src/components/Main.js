@@ -21,6 +21,7 @@ function Main() {
             <div className="card-title">
               <em>Fernando Pereira de Andrade</em>
               <small className="small-developer">
+                {' '}
                 Web
                 {' '}
                 <strong className="strong-developer">
